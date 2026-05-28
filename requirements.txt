@@ -1,0 +1,16 @@
+anthropic==0.86.0
+beir==2.2.0
+gdown==5.2.1
+google-genai==1.69.0
+huggingface-hub==1.7.2
+neo4j==6.2.0
+numpy==2.3.5
+openai==2.30.0
+pandas==3.0.1
+python-dotenv==1.2.2
+requests==2.32.5
+sentence-transformers==5.3.0
+SPARQLWrapper==2.0.0
+torch==2.11.0
+tqdm==4.67.3
+vllm==0.20.1
