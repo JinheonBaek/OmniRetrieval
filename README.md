@@ -1,6 +1,6 @@
 # OmniRetrieval
 
-*Unified Retrieval across Heterogeneous Knowledge Sources.*
+📄 Paper: Baek et al., [*OmniRetrieval: Unified Retrieval across Heterogeneous Knowledge Sources*](https://arxiv.org/abs/2605.29250) (arXiv:2605.29250)
 
 ![OmniRetrieval overview](assets/overview.png)
 
@@ -116,4 +116,20 @@ src/
   evaluation/  # source-selection, formulation, execution, selector, and judge metrics
   utils.py     # SQL / SPARQL / Cypher execution, run I/O
 scripts/       # dataset download + preprocessing, corpus encoding, gold-answer caching
+```
+
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@misc{baek2026omniretrieval,
+  title         = {OmniRetrieval: Unified Retrieval across Heterogeneous Knowledge Sources},
+  author        = {Jinheon Baek and Soyeong Jeong and Sangwoo Park and Woongyeong Yeo and Minki Kang and Patara Trirat and Heejun Lee and Sung Ju Hwang},
+  year          = {2026},
+  eprint        = {2605.29250},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2605.29250}
+}
 ```
